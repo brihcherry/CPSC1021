@@ -1,30 +1,28 @@
+# store variables
 CC = g++
 CFLAGS = -I. -Wall -c
-PROGRAM = hospitalCharges
-OBJA = calcTotalCharges
-OBJB = validateUserInput
+EXEC = hospitalCharges
+OBJECTS = hospitalCharges.o validateUserInput.o calcTotalCharges.o
 
-all: $(PROGRAM).out
+all: $(EXEC).out
 
-run: $(PROGRAM)
-	./$(PROGRAM).out
+run: $(EXEC)
+	./$(EXEC).out
 
-$(PROGRAM): $(PROGRAM).o $(OBJA).o $(OBJB).o
-	$(CC) $(PROGRAM).o $(OBJA).o $(OBJB).o -o $(PROGRAM)
+$(EXEC): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(EXEC)
 
-$(PROGRAM).o: $(PROGRAM).cpp
-	$(CC) $(CFLAGS) $(PROGRAM).cpp
+.c.o:
+	$(CC) $(CFLAGS) -c $<
 
-$(OBJA).o: $(OBJA).cpp
-	$(CC) $(CFLAGS) $(OBJA).cpp
+# list dependencies for object files
+validateUserInput.o: validateUserInput.cpp validateUserInput.h
+calcTotalCharges.o: calcTotalCharges.cpp calcTotalCharges.h
 
-$(OBJB).o: $(OBJB).cpp
-	$(CC) $(CFLAGS) $(OBJB).cpp
-
-fix:
-	rm *.o $(OBJA).o $(OBJB).o $(PROGRAM).o
+tidy:
+	rm *.o
 
 clean:
-	rm *.o $(PROGRAM).out
+	rm *.o $(EXEC).out
 
 
