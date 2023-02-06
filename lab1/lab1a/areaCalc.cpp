@@ -1,5 +1,5 @@
 // This is a program to calculate the area of some shapes
-// Brianna Cherry
+// B------ C-----
 
 #include <iostream>
 #include <iomanip>
