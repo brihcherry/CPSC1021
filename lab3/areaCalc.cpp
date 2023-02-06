@@ -1,5 +1,5 @@
 // 
-// Brianna Cherry, Matthew Phillips, Townsend McDonald, George Dean
+// B------ C-----
 // Lab 3: area calculation with classes
 // Date: 2/6/2023
 // 
