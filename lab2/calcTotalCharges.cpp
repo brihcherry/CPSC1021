@@ -1,4 +1,4 @@
-// Names: Brianna Cherry, George Dean, Matthew Phillips, Townsend McDonald
+// Names: B------ C-----
 // Date: 1/30/23
 // Lab: Lab 2
 // Description: This file contains the function that calculates the function that sums up the charge
