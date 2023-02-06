@@ -1,4 +1,4 @@
-// Names: Brianna Cherry, George Dean, Matthew Phillips, Townsend McDonald
+// Names: B------ C-----
 // Date: 1/30/23
 // cpsc1021; Lab 2
 // Description: contains the main function for the program. it will take user 
