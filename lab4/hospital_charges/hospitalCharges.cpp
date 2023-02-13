@@ -20,11 +20,9 @@ using namespace std;
 int main(){
 
     // create variables to store patient type, days, and various charges
-    Patient patient;
     char pT;
-    int days;
-    double rate, services, medication, totalCharges; 
-
+    double totalCharges;
+    
     // get user input for patient type
     cout << "This program will calculate a patient's hospital charges." << endl;
     cout << "Enter I for in-patient or O for out-patient: ";
@@ -33,6 +31,9 @@ int main(){
 
     // if inpatient, ask for necessary information. 
     if (pT == 'I'){
+        int days;
+        double rate, services, medication; 
+        
         cout << "Number of days spent at the hospital: "; cin >> days;
 
         cout << "Daily room rate ($): "; cin >> rate;
@@ -47,6 +48,8 @@ int main(){
 
     // if outpatient, ask for necessary information. 
     else if (pT == 'O'){
+        double services, medication;
+        
         cout << "Lab fees and other service charges ($): "; cin >> services;
         
         cout << "Medication charges ($): "; cin >> medication;
