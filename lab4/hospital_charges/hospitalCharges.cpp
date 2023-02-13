@@ -32,6 +32,7 @@ int main(){
     if (pT == 'I'){
         int days;
         double rate, services, medication; 
+        Patient patient;
         
         cout << "Number of days spent at the hospital: "; cin >> days;
 
