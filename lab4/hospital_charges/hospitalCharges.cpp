@@ -27,7 +27,6 @@ int main(){
     cout << "This program will calculate a patient's hospital charges." << endl;
     cout << "Enter I for in-patient or O for out-patient: ";
     cin >> pT;
-    patient.setPatientType(pT);
 
     // if inpatient, ask for necessary information. 
     if (pT == 'I'){
