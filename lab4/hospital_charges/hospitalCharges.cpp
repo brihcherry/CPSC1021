@@ -1,5 +1,5 @@
 // 
-// Name: Brianna Cherry
+// Name: B------ C-----
 // Date: 2/10/23
 // cpsc1021; Lab 4
 // 
@@ -32,28 +32,26 @@ int main(){
     patient.setPatientType(pT);
 
     // if inpatient, ask for necessary information. 
-    if (patient.getPatientType() == 'I'){
+    if (pT == 'I'){
         cout << "Number of days spent at the hospital: "; cin >> days;
-        patient.setDays(days);
 
         cout << "Daily room rate ($): "; cin >> rate;
-        patient.setRate(rate);
 
         cout << "Lab fees and other service charges ($): "; 
         cin >> services;
-        patient.setServices(services);
 
         cout << "Medication charges ($): "; cin >> medication;
-        patient.setMedication(medication);
+        
+        Patient patient(days, rate, services, medication, pT);
     }
 
     // if outpatient, ask for necessary information. 
-    else if (patient.getPatientType() == 'O'){
+    else if (pT == 'O'){
         cout << "Lab fees and other service charges ($): "; cin >> services;
-        patient.setServices(services);
         
         cout << "Medication charges ($): "; cin >> medication;
-        patient.setMedication(medication);
+
+        Patient patient(pT, services, medication);
     }
 
     // display total charges to the console.
