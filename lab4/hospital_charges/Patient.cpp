@@ -22,6 +22,13 @@ Patient::Patient()
 // to check the value of the setter because for this program, the setters
 // preform internal data validation using the validateInput function AND
 // set the value themselves.
+Patient::Patient(char pT, double s, double m)
+{
+    setServices(s);
+    setMedication(m);
+    setPatientType(pT);
+}
+
 Patient::Patient(int d, double r, double s, double m, char pT)
 {
     setDays(d);
