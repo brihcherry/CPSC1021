@@ -9,6 +9,7 @@
 class Patient{
 
     private:
+
         int days;
         double rate, services, medication;
         char patientType;
@@ -19,8 +20,8 @@ class Patient{
 
 
     public:
-
         Patient();
+        Patient(char pT, double s, double m);
         Patient(int d, double r, double s, double m, char pT);
 
         void setDays(int d);
@@ -38,6 +39,5 @@ class Patient{
         double calcTotalCharges();
 
 };
-
 
 #endif
