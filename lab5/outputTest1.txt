@@ -1,0 +1,14 @@
+
+Name: Kaitlin Mae Fernandez
+Email: kmfernand@nevada.edu
+Address: 456 Arrowcreek Dr
+Major: Psychology
+Home state: Rhode Island
+Employed by university: Yes
+Make: BMW
+Model: X7
+Year: 2012
+License Plate: 34HJ7
+Classic: No
+Low Emission: No
+Price of parking pass: $50.00
