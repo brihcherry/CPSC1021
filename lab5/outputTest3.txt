@@ -1,0 +1,12 @@
+
+Name: Thomas Cherry
+Email: tom_cherry@yahoo.com
+Address: 6540 Monticello Court
+Speaker: No
+High Schooler: No
+Make: Yamaha
+Model: MT-07
+Year: 2012
+Color: 
+Moped: No
+Price of parking pass: $15.00
