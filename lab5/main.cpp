@@ -1,5 +1,5 @@
 /*
-Brianna Cherry
+BRIANNA CHERRY
 CPSC1020 section1
 lab 5: parking passes
 
