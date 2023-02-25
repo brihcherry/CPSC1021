@@ -47,7 +47,7 @@ string Date::print()
 // use string stream to create output
 {
     stringstream ss;
-    ss << left << setw(10) << MONTHS[month] 
+    ss << left << setw(10) << MONTHS[month-1] 
        << left << setw(3)  << day 
        << left << setw(5)  << year;
 
