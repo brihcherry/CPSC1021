@@ -8,7 +8,7 @@
 
 class Circle{
     private:
-        double radius;
+        double radius = 1;
 
     public:
         Circle() {radius = 1;}; // default constructor
