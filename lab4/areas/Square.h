@@ -9,7 +9,7 @@
 
 class Square{
     private:
-        double side;
+        double side = 1;
 
     public:
         Square() { side = 1;}; // default constructor
