@@ -9,8 +9,8 @@
 
 class Rectangle{
     private:
-        double length,
-                width;
+        double length = 1,
+                width = 1;
 
     public:
         Rectangle(){length = width = 1;}; // default constructor
