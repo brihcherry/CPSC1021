@@ -9,9 +9,9 @@
 
 class Trapezoid{
     private:
-        double base1,
-               base2,
-               height;
+        double base1 = 1,
+               base2 = 1,
+               height = 1;
 
     public:
         Trapezoid() {base1 = base2 = height = 1;}; // defualt
